@@ -1,6 +1,6 @@
 {
   "name": "@mild-ts/npm-typescript-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NPM TypeScript Boilerplate with Changesets CLI & GitHub Actions",
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
@@ -41,7 +41,6 @@
     "type": "git",
     "url": "https://github.com/mild-ts/npm-typescript-boilerplate.git"
   },
-  
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
