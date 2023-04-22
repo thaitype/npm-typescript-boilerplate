@@ -1,5 +1,7 @@
 # NPM TypeScript Boilerplate
 
+> This repo is only the boilerplate for npm packages, found in npm registry for testing purpose only,
+
 ## Use this repo
 
 ```
