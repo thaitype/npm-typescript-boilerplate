@@ -1,6 +1,6 @@
 {
   "name": "@mild-ts/npm-typescript-boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "NPM TypeScript Boilerplate with Changesets CLI & GitHub Actions",
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
