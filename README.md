@@ -1,4 +1,4 @@
-# Simple TypeScript Boilerplate
+# NPM TypeScript Boilerplate
 
 ## Use this repo
 
@@ -12,3 +12,6 @@ npm start
 # Test watch mode
 npm run test:watch
 ```
+
+## Thanks
+- https://www.youtube.com/watch?v=eh89VE3Mk5g
