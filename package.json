@@ -5,6 +5,13 @@
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "import": "./dist/main.mjs",
+      "default": "./dist/main.js"
+    }
+  },
   "files": [
     "dist/**",
     "src/**"
@@ -32,8 +39,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mildronize/utils.git"
+    "url": "https://github.com/mild-ts/npm-typescript-boilerplate.git"
   },
+  
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
