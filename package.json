@@ -22,6 +22,7 @@
     "release": "npm run build && changeset publish",
     "check-types": "tsc --noEmit",
     "test": "ava",
+    "format": "prettier --write .",
     "upgrade-deps": "npx taze -r --interactive",
     "check-deps": "npx taze -r"
   },
@@ -55,5 +56,14 @@
     "require": [
       "esbuild-register"
     ]
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "printWidth": 120,
+    "arrowParens": "avoid"
   }
 }
