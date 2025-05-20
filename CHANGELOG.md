@@ -1,5 +1,11 @@
 # @mild-ts/npm-typescript-boilerplate
 
+## 0.0.3
+
+### Patch Changes
+
+- d19a5bc: Update package version
+
 ## 0.0.2
 
 ### Patch Changes
